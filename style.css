@@ -1,0 +1,292 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #078a5a;
+}
+
+p {
+  color: #34364a;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.navbar ul li {
+  margin-left: 50px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.navbar ul li a:hover {
+  color: #078a5a;
+}
+
+.jumbotron {
+  padding-top: 120px;
+  min-height: 670px;
+  background-image: url("images/cover-background2.jpeg");
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  line-height: 170%;
+  margin-bottom: 28px;
+  color: #f2f2f2;
+}
+
+
+.jumbotron a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px;
+}
+
+.btn {
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+#about {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+
+#about p {
+  font-size: 16px;
+}
+
+/* #project {
+  background-color: #F4F6F8;
+  min-height: 800px;
+  margin-top: 5rem;
+} */
+
+#project a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px;
+}
+
+#project img:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.02);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.15);
+}
+
+#cutting {
+  background-color: #F4F6F8;
+  padding-bottom: 8rem;
+  margin-top: 8rem;
+  /* min-height: 800px;
+  margin-top: 5rem; */
+}
+
+#cutting h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #34364a;
+}
+
+#cutting h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #34364a;
+}
+
+#cutting p {
+  font-weight: 400;
+  color: #7a7d85;
+}
+
+#blog {
+  min-height: 850px;
+  margin-top: 4rem;
+}
+
+#blog h5{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+#blog p{
+  font-size: 15px;
+  line-height: 160%;
+}
+
+#blog .card{
+  border: none;
+}
+
+#blog .card-body{
+  border: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#blog .blogs a{
+  color: #ff0000;
+}
+
+.card {
+  padding-right: 0px;
+}
+
+.card p {
+  color: #34364a;
+}
+
+.card img {
+  transition: 0.3s ease;
+}
+
+.card img:hover {
+  opacity: 0.92;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+#video a {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px;
+}
+
+footer {
+  margin-top: 120px;
+  padding-top: 30px;
+  background-color: #f8f9fa;
+  min-height: 160px;
+}
+
+.footer a {
+  color: inherit;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+.bg-dark {
+  background: transparent !important;
+  transition: 0.2s ease;
+}
+
+.bg-dark.scrolled {
+  background: #fff !important;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.02);
+  padding: 0px 0px;
+}
+
+.scrolled .nav-item .navs {
+  color: #6f6f6f;
+}
+
+.scrolled .nav-item .navs:hover {
+  color: #078a5a;
+}
+
+@media (max-width: 670px) {
+
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  #video h1 {
+    margin-top: 120px;
+  }
+
+  .lead {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  #project .btn {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  #video h1 {
+    margin-top: 120px;
+  }
+
+  .lead {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  #project .btn {
+    margin-bottom: 3rem;
+  }
+}
+
+.btn-submit {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px;
+}
+
+/*css for alert messages*/
+
+/* .alert-success{
+  z-index: 1;
+  background: #D4EDDA;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #3AD66E;
+  border-radius: 4px;
+} */
+
+/* .alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+} */

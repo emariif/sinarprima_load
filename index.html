@@ -1,0 +1,407 @@
+<?php include 'sendemail.php'; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+    <link rel="icon" href="images/SPI.svg">
+    <title>Sinar Prima Indonesia</title>
+</head>
+
+<body id="home">
+    <!--alert messages start-->
+    <?php echo $alert; ?>
+    <!--alert messages end-->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/SPI.svg" alt="Logo" width="48" height="48" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="navs active fw-bold" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navs fw-bold" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navs fw-bold" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navs fw-bold" href="#cutting">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navs fw-bold" href="#blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-md-12">
+                    <h1 class="display-4 pt-5 text-white">Wujudkan Mimpi Anda Jadikan <br />Bangunan Tampak Cantik</h1>
+                    <p class="desc">
+                        Sinar Prima Indonesia melayani segala kebutuhan fabrikasi Anda sesuai <br /> permintaan, Kami
+                        berikan untuk
+                        kepuasan Anda
+                    </p>
+                    <a class="btn btn-success shadow-sm" href="https://api.whatsapp.com/send?phone=628113663166"
+                        role="button" target="_blank">Pesan Sekarang</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- Tentang Kami -->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8">
+                    <h6 class="pt-5 pb-2 text-success">About Me</h6>
+                    <h1 class="fw-bolder pb-4 ">Tentang Kami</h1>
+                    <p class="lead fw-normal mb-3">Sinar Prima Indonesia adalah perusahaan cutting yang melayani
+                        pembuatan
+                        panel ornamen dekoratif menggunakan mesin cutting untuk meningkatkan nilai estetika ruangan
+                        eksterior dan
+                        interior</p>
+                    <p class="lead fw-normal mb-3">Mengapa Kami? Melayani segala kebutuhan fabrikasi dengan cepat
+                        sesuai
+                        permintaan. Pelayanan Purna Jual yang Prima, Kami berikan untuk kepuasan Anda dengan hasil
+                        pekerjaan yang
+                        kuat sesuai standar dengan menggunakan alat dan bahan berkualitas, serta pekerja yang ahli di
+                        bidangnya</p>
+                    <p class="lead fw-normal">Fabrikasi terbaik di kota Malang. <br />
+                        <span><a href="images/type/wallpanel.jpeg">wallpanel</a></span> |
+                        <span><a href="images/type/balcony.jpeg">balkon</a></span> |
+                        <span><a href="images/type/kanopi.jpeg">kanopi</a></span> |
+                        <span><a href="images/type/railing_tangga.jpeg">railing tangga</a></span> |
+                        <span><a href="images/type/sketsel.jpeg">sketsel</a></span> |
+                        <span><a href="images/type/teralis.jpeg">teralis</a></span> |
+                        <span><a href="images/type/ceiling.jpeg">ceiling</a></span> |
+                        <span><a href="images/type/pintu.jpeg">pagar</a></span> |
+                        <span><a href="#">plafon</a></span> |
+                        <span><a href="#">kusen</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Tentang Kami -->
+
+    <!-- Project -->
+    <section id="project">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 ">
+                    <h6 class="pt-5 pb-2 text-success">Our Project</h6>
+                    <h1 class="fw-bolder pb-2">Kualitas Pengerjaan Prioritas Kami</h1>
+                    <p class="fs-6 mb-5" style=" color: #7a7d85;">
+                        Fabrikasi terbaik di kota Malang yang melayani
+                        pembuatan
+                        panel ornamen <br> dekoratif guna meningkatkan nilai estetika ruangan
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center mb-4">
+                <div class="col-md col-sm-6 mb-3" style="display: inline-block">
+                    <img class="shadow-sm" src="images/foto1.png" alt="Project 1" width="257px" height="300" />
+                </div>
+                <div class="col-md col-sm-6 mb-3" style="display: inline-block">
+                    <img src="images/foto2.png" alt="Project 2" width="257px" height="300" />
+                </div>
+                <div class="col-md col-sm-6 mb-3" style="display: inline-block">
+                    <img src="images/foto3.png" alt="Project 3" width="257px" height="300" />
+                </div>
+                <div class="col-md col-sm-6 mb-3" style="display: inline-block">
+                    <img src="images/foto4.png" alt="Project 4" width="257px" height="300" />
+                </div>
+            </div>
+            <!-- <div class="row justify-content-center text-center mb-5">
+                <div class="col-md">
+                    <a class="btn btn-success text-center" href="https://api.whatsapp.com/send?phone=628113663166"
+                        role="button" target="_blank">Pesan Sekarang</a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- Akhir Project -->
+
+    <!-- Product cutting -->
+    <section id="cutting">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mb-3">
+                    <h6 class="pt-5 pb-2 text-success">Product Cutting Services</h6>
+                    <h1 class="fw-bolder pb-4"> Berbagai Jasa dan Layanan yang Kami Sediakan</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm py-3 px-2" style="border: none;">
+                            <div class="card-body">
+                                <img src="images/iron.png" class="pb-4" alt="">
+                                <h5 class="card-title jasa pb-2">Jasa Potong Besi Plat</h5>
+                                <p class="card-text">Kami melayani cutting plat besi bermotif ornament dengan
+                                    ketebalan mulai 1.5 mm hingga 6mm.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm py-3 px-2" style="border: none;">
+                            <div class="card-body">
+                                <img src="images/cutting.png" class="pb-4" alt="">
+                                <h5 class="card-title jasa pb-2">Jasa Potong PVC/MDF/Akrilik</h5>
+                                <p class="card-text">Jasa potong berbahan nonlogam untuk kebutuhan interior ruangan
+                                    anda. <br><br> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm py-3 px-2" style="border: none;">
+                            <div class="card-body">
+                                <img src="images/pemasangan.png" class="pb-4" alt="">
+                                <h5 class="card-title jasa pb-2">Jasa Pemasangan</h5>
+                                <p class="card-text">Kami melayani jasa konstruksi pemasangan pagar plat ornament,
+                                    cladding ornament, facade hingga ornament plat untuk kanopi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awal Blog -->
+    <section id="blog">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8">
+                    <h6 class="pt-5 pb-2 text-success">Our Blog</h6>
+                    <h1 class="fw-bolder pb-2">Blog Kami</h1>
+                    <p class="lead fs-6 fw-normal mb-5" style=" color: #7a7d85;">
+                        Ornamen saat ini memang sedang booming dan digandrungi banyak masyarakat. <br> Penggunaannya pun
+                        fleksibel
+                        digunakan dalam beberapa tempat
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-6 mb-3" style="width: 18rem; display: inline-block">
+                    <a href="https://sinarprima.primajoss.id/blog/2021/04/16/konsep-dasar-rumah-islami/"
+                        class="custom-card">
+                        <div class="card">
+                            <img src="images/blog1.png" class="card-img-top" alt="Blog 1" width="200" height="260" />
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder">Konsep Dasar Rumah Islami</h5>
+                                <p class="card-text">Rumah bisa menjadi sumber inspirasi, kedamaian, dan energi bagi
+                                    pemiliknya.</p>
+                            </div>
+                        </div>
+                        <p style="color: #0C6B96; font-weight: 600;">Read More</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-3" style="width: 18rem; display: inline-block">
+                    <a href="https://sinarprima.primajoss.id/blog/2021/04/16/ide-desain-ornamen-minimalis-idaman-tahun-2021/"
+                        class="custom-card">
+                        <div class="card">
+                            <img src="images/blog2.png" class="card-img-top" alt="Blog 1" width="200" height="260" />
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder">Ide Desain Ornamen Minimalis</h5>
+                                <p class="card-text">Buat kalian yang sudah bosan dekorasi rumah yang itu-itu.</p>
+                            </div>
+                        </div>
+                        <p style="color: #0C6B96; font-weight: 600;">Read More</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-3" style="width: 18rem; display: inline-block">
+                    <a class="custom-card"
+                        href="https://sinarprima.primajoss.id/blog/2021/04/16/tips-memilih-ornamen-untuk-rumah/"
+                        target="_blank">
+                        <div class="card">
+                            <img src="images/blog3.png" class="card-img-top" alt="Blog 1" width="200" height="260" />
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder">Tips Memilih Ornamen Rumah</h5>
+                                <p class="card-text">Ornamen saat ini memang sedang digandrungi banyak
+                                    masyarakat.</p>
+                            </div>
+                        </div>
+                        <p style="color: #0C6B96; font-weight: 600;">Read More</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Blog -->
+
+    <!-- Contact -->
+    <section id="video">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <h1 class="text-success">Contact Us</h1>
+                    <p class="text-secondary">Konsultasikan Masalah Anda Sekarang</p>
+                </div>
+                <div class="col-md-7">
+                    <form class="contact" action="" method="post">
+                        <div class="row g-2">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                                    <input name="name" type="name" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Nama Lengkap" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="example@yourdomain.com" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nomorTelp" class="form-label">Nomor Telepon</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">+62</span>
+                                <input name="nomorTelp" type="number" class="form-control" placeholder="82233521321"
+                                    aria-describedby="basic-addon1" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="konsultasikan masalah Anda sekarang" style="resize: none;"
+                                required></textarea>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 ps-0">
+                        <p><i class="bi bi-telephone-fill text-success pe-2"></i>0811-3663-166</p>
+                        <p style="margin-top: -0.7rem !important;"><i class="bi bi-envelope-fill text-success pe-2"></i>
+                            sinarprima.id@gmail.com</p>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="mb-3">
+                            <input class="btn btn-submit btn-success shadow-sm fs-6 fw-bold" name="submit" type="submit"
+                                value="Kirim Sekarang">
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <!-- <div class="row">
+                <div class="col-md-5">
+                    <p><i class="bi bi-telephone-fill text-success pe-2"></i>0811-3663-166</p>
+                    <p style="margin-top: -0.7rem !important;"><i class="bi bi-envelope-fill text-success pe-2"></i>
+                        sinarprima.id@gmail.com</p>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+    <!-- Akhir Video -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center pb-3">
+                <div class="col-md-2 mb-3">
+                    <img src="images/logo2.svg" alt="Logo" width="59" height="88" />
+                </div>
+                <div class="col-md-3">
+                    <p class="foot fs-6 fw-bold mb-1">Kontak</p>
+                    <p class="foot fs-6 fw-normal mb-1">
+                        No Telp: <span><a href="https://api.whatsapp.com/send?phone=628113663166"
+                                target="_blank">0811-3663-166</a></span>
+                    </p>
+                    <p class="foot fs-6 fw-normal mb-1">
+                        No WhatsApp: <span><a href="https://api.whatsapp.com/send?phone=628113663166"
+                                target="_blank">0811-3663-166</a></span>
+                    </p>
+                    <p class="foot fs-6 fw-normal mb-4">
+                        Email : <span><a href="mailto:sinarprima.id@gmail.com"
+                                target="_blank">sinarprima.id@gmail.com</a></span>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="foot fs-6 fw-bold mb-1">Social Media</p>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <a href="https://www.facebook.com/sinarprima.ornamen" target="_blank"><i
+                                    class="bi bi-facebook fs-3 me-2"></i></a>
+                            <a href="https://www.instagram.com/sinarprima_indonesia/" target="_blank"><i
+                                    class="bi bi-instagram fs-3 me-2"></i></i></a>
+                            <a href="" target="_blank"><i class="bi bi-youtube fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <p class="foot fs-6 fw-bold mb-1">Alamat</p>
+                    <p class="foot fs-6 fw-normal mb-1">JL. Akordion Utara Kav 3 De Prima Tunggulwulung, Malang</p>
+                </div>
+                <hr style="color: #9C9C9C;" />
+                <p class="text-center text-secondary fs-6">@Copyright 2021 Sinar Prima Indonesia Created With <i
+                        class="bi bi-heart-fill text-danger"></i></p>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+    <script type="text/javascript">
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
+</body>
+
+</html>
